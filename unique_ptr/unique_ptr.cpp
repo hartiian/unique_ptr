@@ -1,5 +1,3 @@
-#include "unique_ptr.hpp"
-
 template <typename T>
 void Deleter<T>::operator()(T* ptr) {
     if(ptr) {
