@@ -30,4 +30,6 @@ int main() {
     std::cout << "Before swap: ptr6=" << *ptr6 << ", ptr7=" << *ptr7 << std::endl;
     ptr6.swap(ptr7);
     std::cout << "After swap: ptr6=" << *ptr6 << ", ptr7=" << *ptr7 << std::endl;
+
+    return 0;
 }
